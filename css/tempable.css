@@ -15,7 +15,7 @@
 }
 
 header{
-    min-height: 721px;
+    min-height: 720px;
     position: relative;
     padding-top: 40px;
     background-image: url('../img/money.jpg');
@@ -28,7 +28,7 @@ header{
     letter-spacing: 0.2em;
     font-size: 30px;
     transition: 0.2s;
-
+    margin-top: -5px;
 }
 
 .navbar{
@@ -42,9 +42,9 @@ ul{
     justify-content: space-between;
 }
 
-ul li{
+/* ul li{
     transition: 0.4s;
-}
+} */
 
 ul li a{
     padding: 30px 20px;
@@ -74,7 +74,7 @@ ul li a{
     cursor: pointer;
 }
 
-.icon{
+/* .icon{
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -85,9 +85,9 @@ ul li a{
 }
 
 .circle circle-play{
-    font-size: 25px;
+    font-size: 50px;
     color: #fff;
-}
+} */
 
 .text {
 	color: #f7ca44;
